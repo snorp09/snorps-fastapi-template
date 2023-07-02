@@ -1,8 +1,8 @@
 [tool.poetryone]
-name = "{{cookiecutter.project-name}}"
-version = "{{cookiecutter.project-name}}"
+name = "{{cookiecutter.project_name}}"
+version = "{{cookiecutter.project_name}}"
 description = ""
-authors = ["{{cookiecutter.name}} <{{cookiecutter.email}}>"]
+authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
