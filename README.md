@@ -1,1 +1,1 @@
-Template for myself, when creating APIs using FastAPI, Uvicorn, SQLAlchemy and Alembic
+Cookiecutter template for myself, when creating APIs using FastAPI, Uvicorn, SQLAlchemy and Alembic
