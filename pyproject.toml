@@ -1,8 +1,8 @@
 [tool.poetryone]
-name = "API"
-version = "0.1.0"
+name = "{{cookiecutter.project-name}}"
+version = "{{cookiecutter.project-name}}"
 description = ""
-authors = ["Christopher Waschke <chrisdwaschke@gmail.com>"]
+authors = ["{{cookiecutter.name}} <{{cookiecutter.email}}>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
