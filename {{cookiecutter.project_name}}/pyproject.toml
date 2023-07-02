@@ -1,6 +1,6 @@
 [tool.poetryone]
 name = "{{cookiecutter.project_name}}"
-version = "{{cookiecutter.project_name}}"
+version = "{{cookiecutter.version}}"
 description = ""
 authors = ["{{cookiecutter.full_name}} <{{cookiecutter.email}}>"]
 readme = "README.md"
