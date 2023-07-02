@@ -26,3 +26,10 @@ engine_url = URL.create(
 )
 engine = create_engine(engine_url)
 local_session = sessionmaker(bind=engine)
+
+def get_db_session():
+    sess = local_session()
+    try:
+        yield sess
+    finally:
+        sess.close()
