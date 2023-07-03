@@ -18,7 +18,7 @@ class DB_Settings(BaseSettings):
 settings = DB_Settings()
 
 engine_url = URL.create(
-    drivername="psycopgs2+postgresql",
+    drivername="psycopg2+postgresql",
     username=settings.DB_USER,
     password=settings.DB_PASS,
     host=settings.DB_HOST,
