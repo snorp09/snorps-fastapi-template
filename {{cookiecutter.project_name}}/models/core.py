@@ -1,4 +1,4 @@
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 from sqlalchemy import create_engine, URL
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
@@ -12,8 +12,8 @@ class DB_Settings(BaseSettings):
     DB_PORT: int
     DB_NAME: str
 
-    class Config:
-        env_file = ".env"
+    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
+
 
 settings = DB_Settings()
 
